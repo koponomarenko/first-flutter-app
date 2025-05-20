@@ -40,6 +40,7 @@ class MyHomePage extends StatelessWidget {
     var pair = appState.current;
 
     return Scaffold(
+      appBar: AppBar(title: const Text('My Home Page')),
       body: SafeArea(
         child: Center(
           child: Column(
@@ -59,7 +60,6 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
       ),
-      8,
     );
   }
 }

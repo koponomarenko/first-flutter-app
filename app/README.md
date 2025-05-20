@@ -20,7 +20,6 @@ samples, guidance on mobile development, and a full API reference.
 ```
 flutter doctor
 flutter config --enable-web
-flutter create .
 ```
 
 ## Debug locally
