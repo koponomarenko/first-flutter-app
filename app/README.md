@@ -16,19 +16,31 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 # Web app
+
 ```
 flutter doctor
 flutter config --enable-web
 flutter create .
 ```
+
 ## Debug locally
+
 ```
 flutter run -d chrome
 ```
+
 ## Deploy to Vercel
+
 ```
 npm install -g vercel
 
+flutter build web
 vercel login
 vercel --prod --cwd build/web
+```
+
+# Android App
+
+```
+flutter config --enable-android
 ```
